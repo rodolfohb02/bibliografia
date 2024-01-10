@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    background-color: aqua;
+}
+.container{
+    width: 500px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.round-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-55%);
+
+}
+.info{
+    padding-top: 120px;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
+}
